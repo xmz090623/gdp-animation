@@ -15,5 +15,8 @@ https://databank.worldbank.org/indicator/NY.GDP.MKTP.CD/1ff4a498/Popular-Indicat
 数据处理和gif绘制：
 模块的名字叫pandas-alive，可以通过pip命令安装。这个模块可以读取csv文件，并转换成pandas的dataframe格式。在通过一个简单的函数调用，就可以生成gif文件并保存到本地。
 
-git repo: https://github.com/JackMcKew/pandas_alive
-使用手册：https://pypi.org/project/pandas-alive/#usage
+- git repo: https://github.com/JackMcKew/pandas_alive
+- 使用手册：https://pypi.org/project/pandas-alive/#usage
+
+如何执行：
+`$ python3.7 main.py -f wb_1960_2020_gdp_dollar.csv -g wb_1960_2020_gdp_dollar.gif -i 1000`
